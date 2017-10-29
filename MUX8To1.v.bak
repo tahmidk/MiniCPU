@@ -1,0 +1,27 @@
+`timescale 1ns / 1ps
+
+/*------------------------------------------------
+ * CSE 140L - HW4
+ *
+ * Engineer:  Tahmid Khan
+ * Module:    8:1 MUX
+ -----------------------------------------------*/
+ 
+ /************************************************ 
+ // [INPUTS]
+ // Data lines:		A, B, C, D, E, F, G, H (8-bit)
+ // Select line:		Sel (3-bit)
+ 
+ // [OUTPUTS]
+ // MUX Selection:	Y (8-bit)
+ ************************************************/
+
+module Mux8To1(
+	input [7:0] A,B,C,D,E,F,G,H;
+	input [2:0] Sel,
+	output [7:0] Y
+);
+ 
+ 
+ 
+endmodule 

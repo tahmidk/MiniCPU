@@ -1,0 +1,44 @@
+`timescale 1ns / 1ps
+
+/*------------------------------------------------
+ * CSE 140L - HW4
+ *
+ * Engineer:  Tahmid Khan
+ * Module:    Arithmetic Logic Unit (ALU) (8-bit)
+ -----------------------------------------------*/
+ 
+ /************************************************ 
+ // [INPUTS]
+ // Operands:  A, B (8-bit)
+ 
+ // [OUTPUTS]
+ // Output:	   D (8-bit)
+ ************************************************/ 
+module alu(
+	input [7:0] A, B,
+	output [7:9]
+);
+ 
+	input [7:0] A, B, C;
+	input S0, S1;
+	
+	output reg [7:0] D;
+	
+	// Combine signals
+	wire [1:0] SEL = {S1, S0};
+	
+	// Holds the bitwise 8-bit XNOR of A with B with C
+	wire [7:0] ABC_XNOR;
+	xnor_8bit sel2(A, B, C, ABC_XNOR);
+	
+	always @(A or B or C or D or SEL)
+		case(SEL)
+			0: D = (A + B) + C;					//	Basic triple addition
+			1: D = (A - B) - C;					//	Basic triple subtraction
+			2: D = ABC_XNOR;						// Triple bitwise 8-bit XNOR
+			3: D = (A[0] == 1) ? B+C : B-C;	// Add B and C for odd A's, 
+														// or subtract for even A's
+			default: $display("Error with SEL");
+		endcase
+ 
+ endmodule 

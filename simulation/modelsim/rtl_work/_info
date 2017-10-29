@@ -1,0 +1,377 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/anda0/Documents/CSE 140L Projects/HW4/simulation/modelsim
+vAdder
+Z1 !s110 1504136086
+!i10b 1
+!s100 E;k?YI7>5AKdS<=n89V`12
+Il5C6[MMoGC1:f5H[eRjAU3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1504038194
+8C:/Users/anda0/Documents/CSE 140L Projects/HW4/Adder.v
+FC:/Users/anda0/Documents/CSE 140L Projects/HW4/Adder.v
+Z3 L0 18
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1504136086.000000
+!s107 C:/Users/anda0/Documents/CSE 140L Projects/HW4/Adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/anda0/Documents/CSE 140L Projects/HW4|C:/Users/anda0/Documents/CSE 140L Projects/HW4/Adder.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work {+incdir+C:/Users/anda0/Documents/CSE 140L Projects/HW4}
+Z8 tCvgOpt 0
+n@adder
+vALU
+Z9 !s110 1504136087
+!i10b 1
+!s100 o>]lXdQHKJEzkoAWgdS_40
+IKX6_TdQ=Go[`LzJSkMj>;3
+R2
+R0
+w1504056757
+8C:/Users/anda0/Documents/CSE 140L Projects/HW4/alu.v
+FC:/Users/anda0/Documents/CSE 140L Projects/HW4/alu.v
+Z10 L0 25
+R4
+r1
+!s85 0
+31
+Z11 !s108 1504136087.000000
+!s107 C:/Users/anda0/Documents/CSE 140L Projects/HW4/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/anda0/Documents/CSE 140L Projects/HW4|C:/Users/anda0/Documents/CSE 140L Projects/HW4/alu.v|
+!i113 1
+R6
+R7
+R8
+n@a@l@u
+vBitwiseAND
+R9
+!i10b 1
+!s100 eJ@Yb1<N5;0jRaC;`WDW>1
+I6TUa9cC3m`33`gaJSK5S11
+R2
+R0
+w1504056332
+8C:/Users/anda0/Documents/CSE 140L Projects/HW4/BitwiseAND.v
+FC:/Users/anda0/Documents/CSE 140L Projects/HW4/BitwiseAND.v
+R3
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/anda0/Documents/CSE 140L Projects/HW4/BitwiseAND.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/anda0/Documents/CSE 140L Projects/HW4|C:/Users/anda0/Documents/CSE 140L Projects/HW4/BitwiseAND.v|
+!i113 1
+R6
+R7
+R8
+n@bitwise@a@n@d
+vBitwiseNAND
+R9
+!i10b 1
+!s100 8Hf7lYN7oKSeY^i06h8630
+IS43^Szk5;BT?;fmfleOdX0
+R2
+R0
+w1504056343
+8C:/Users/anda0/Documents/CSE 140L Projects/HW4/BitwiseNAND.v
+FC:/Users/anda0/Documents/CSE 140L Projects/HW4/BitwiseNAND.v
+R3
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/anda0/Documents/CSE 140L Projects/HW4/BitwiseNAND.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/anda0/Documents/CSE 140L Projects/HW4|C:/Users/anda0/Documents/CSE 140L Projects/HW4/BitwiseNAND.v|
+!i113 1
+R6
+R7
+R8
+n@bitwise@n@a@n@d
+vBitwiseOR
+R9
+!i10b 1
+!s100 3o=faJ4QJU8_>Sd[C>:Uf0
+I^>AAR9KV2KRH<o2PVnSAW0
+R2
+R0
+w1504056347
+8C:/Users/anda0/Documents/CSE 140L Projects/HW4/BitwiseOR.v
+FC:/Users/anda0/Documents/CSE 140L Projects/HW4/BitwiseOR.v
+R3
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/anda0/Documents/CSE 140L Projects/HW4/BitwiseOR.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/anda0/Documents/CSE 140L Projects/HW4|C:/Users/anda0/Documents/CSE 140L Projects/HW4/BitwiseOR.v|
+!i113 1
+R6
+R7
+R8
+n@bitwise@o@r
+vBitwiseXOR
+R9
+!i10b 1
+!s100 D9i:c8d=oV8U3^>PT7ZLG1
+In_UQP189i<6?VRcN=m[a?0
+R2
+R0
+w1504056353
+8C:/Users/anda0/Documents/CSE 140L Projects/HW4/BitwiseXOR.v
+FC:/Users/anda0/Documents/CSE 140L Projects/HW4/BitwiseXOR.v
+R3
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/anda0/Documents/CSE 140L Projects/HW4/BitwiseXOR.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/anda0/Documents/CSE 140L Projects/HW4|C:/Users/anda0/Documents/CSE 140L Projects/HW4/BitwiseXOR.v|
+!i113 1
+R6
+R7
+R8
+n@bitwise@x@o@r
+vBusSplit
+R1
+!i10b 1
+!s100 JmM>iILMfiGBn7fzmh6NG2
+ICe3R<BgQEM8XZNfK;lBg00
+R2
+R0
+w1504040222
+8C:/Users/anda0/Documents/CSE 140L Projects/HW4/BusSplit.v
+FC:/Users/anda0/Documents/CSE 140L Projects/HW4/BusSplit.v
+Z12 L0 19
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/anda0/Documents/CSE 140L Projects/HW4/BusSplit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/anda0/Documents/CSE 140L Projects/HW4|C:/Users/anda0/Documents/CSE 140L Projects/HW4/BusSplit.v|
+!i113 1
+R6
+R7
+R8
+n@bus@split
+vComparator
+R1
+!i10b 1
+!s100 lR3N[BUED`nmb9G@YL36Y3
+IH=Q7YDSbJ4e`9N7>ZgER;1
+R2
+R0
+w1504038177
+8C:/Users/anda0/Documents/CSE 140L Projects/HW4/Comparator.v
+FC:/Users/anda0/Documents/CSE 140L Projects/HW4/Comparator.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/anda0/Documents/CSE 140L Projects/HW4/Comparator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/anda0/Documents/CSE 140L Projects/HW4|C:/Users/anda0/Documents/CSE 140L Projects/HW4/Comparator.v|
+!i113 1
+R6
+R7
+R8
+n@comparator
+vInstructionDecoder
+R1
+!i10b 1
+!s100 =lIVkk84XCdP^E@]jn8910
+InJ[OJFaQiIRRYg8R^`6ZT2
+R2
+R0
+w1504051793
+8C:/Users/anda0/Documents/CSE 140L Projects/HW4/InstructionDecoder.v
+FC:/Users/anda0/Documents/CSE 140L Projects/HW4/InstructionDecoder.v
+L0 42
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/anda0/Documents/CSE 140L Projects/HW4/InstructionDecoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/anda0/Documents/CSE 140L Projects/HW4|C:/Users/anda0/Documents/CSE 140L Projects/HW4/InstructionDecoder.v|
+!i113 1
+R6
+R7
+R8
+n@instruction@decoder
+vMUX2To1
+R1
+!i10b 1
+!s100 h0fmRUzVU@ch=kM;;A?_g3
+IB>SY6BL:l2kACfhVVZYzj0
+R2
+R0
+w1504036687
+8C:/Users/anda0/Documents/CSE 140L Projects/HW4/MUX2To1.v
+FC:/Users/anda0/Documents/CSE 140L Projects/HW4/MUX2To1.v
+R12
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/anda0/Documents/CSE 140L Projects/HW4/MUX2To1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/anda0/Documents/CSE 140L Projects/HW4|C:/Users/anda0/Documents/CSE 140L Projects/HW4/MUX2To1.v|
+!i113 1
+R6
+R7
+R8
+n@m@u@x2@to1
+vMUX8To1
+R1
+!i10b 1
+!s100 X7`AngdB3MSi5eMJhQ]N_0
+IYH?F0_f2mggBKY68jmE5Z0
+R2
+R0
+w1504050265
+8C:/Users/anda0/Documents/CSE 140L Projects/HW4/MUX8To1.v
+FC:/Users/anda0/Documents/CSE 140L Projects/HW4/MUX8To1.v
+R12
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/anda0/Documents/CSE 140L Projects/HW4/MUX8To1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/anda0/Documents/CSE 140L Projects/HW4|C:/Users/anda0/Documents/CSE 140L Projects/HW4/MUX8To1.v|
+!i113 1
+R6
+R7
+R8
+n@m@u@x8@to1
+vRegister8bit
+R9
+!i10b 1
+!s100 [AZ5?KE@_PR49X4>KOVVU3
+I4B6l:_VI9eX=QVE9ZNK:c0
+R2
+R0
+w1504040836
+8C:/Users/anda0/Documents/CSE 140L Projects/HW4/Register8bit.v
+FC:/Users/anda0/Documents/CSE 140L Projects/HW4/Register8bit.v
+Z13 L0 21
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/anda0/Documents/CSE 140L Projects/HW4/Register8bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/anda0/Documents/CSE 140L Projects/HW4|C:/Users/anda0/Documents/CSE 140L Projects/HW4/Register8bit.v|
+!i113 1
+R6
+R7
+R8
+n@register8bit
+vShiftLeft
+R9
+!i10b 1
+!s100 h9[R<ACVSVJFeG=P4k:Xk1
+I^odDZbgDk`DkdH7dOgL3a3
+R2
+R0
+w1504038400
+8C:/Users/anda0/Documents/CSE 140L Projects/HW4/ShiftLeft.v
+FC:/Users/anda0/Documents/CSE 140L Projects/HW4/ShiftLeft.v
+R3
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/anda0/Documents/CSE 140L Projects/HW4/ShiftLeft.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/anda0/Documents/CSE 140L Projects/HW4|C:/Users/anda0/Documents/CSE 140L Projects/HW4/ShiftLeft.v|
+!i113 1
+R6
+R7
+R8
+n@shift@left
+vShiftRight
+R1
+!i10b 1
+!s100 iVfzfV>lKKlM6_Z:FiFce3
+IDHUZn[>WW1LhFHGdKQ<PS1
+R2
+R0
+w1504038329
+8C:/Users/anda0/Documents/CSE 140L Projects/HW4/ShiftRight.v
+FC:/Users/anda0/Documents/CSE 140L Projects/HW4/ShiftRight.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/anda0/Documents/CSE 140L Projects/HW4/ShiftRight.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/anda0/Documents/CSE 140L Projects/HW4|C:/Users/anda0/Documents/CSE 140L Projects/HW4/ShiftRight.v|
+!i113 1
+R6
+R7
+R8
+n@shift@right
+vTinyCPU
+R1
+!i10b 1
+!s100 ;H74UfcJYMFI?K=I^hBGh1
+Io88DLbI7DoMLb9Bkch;1N3
+R2
+R0
+w1504112211
+8C:/Users/anda0/Documents/CSE 140L Projects/HW4/TinyCPU.v
+FC:/Users/anda0/Documents/CSE 140L Projects/HW4/TinyCPU.v
+R13
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/anda0/Documents/CSE 140L Projects/HW4/TinyCPU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/anda0/Documents/CSE 140L Projects/HW4|C:/Users/anda0/Documents/CSE 140L Projects/HW4/TinyCPU.v|
+!i113 1
+R6
+R7
+R8
+n@tiny@c@p@u
+vTinyCPUTest
+!s110 1504136103
+!i10b 1
+!s100 l_WWjgGzzm5_XhU[75<=_0
+IgeQliz@BM1>6JSaiZ=R6T0
+R2
+R0
+w1504112709
+8C:/Users/anda0/Documents/CSE 140L Projects/HW4/TinyCPUTest.v
+FC:/Users/anda0/Documents/CSE 140L Projects/HW4/TinyCPUTest.v
+R10
+R4
+r1
+!s85 0
+31
+!s108 1504136103.000000
+!s107 C:/Users/anda0/Documents/CSE 140L Projects/HW4/TinyCPUTest.v|
+!s90 -reportprogress|300|-work|work|C:/Users/anda0/Documents/CSE 140L Projects/HW4/TinyCPUTest.v|
+!i113 1
+o-work work
+R8
+n@tiny@c@p@u@test

@@ -1,0 +1,24 @@
+`timescale 1ns / 1ps
+
+/*------------------------------------------------
+ * CSE 140L - HW4
+ *
+ * Engineer:  Tahmid Khan
+ * Module:    Adder
+ -----------------------------------------------*/
+ 
+ /************************************************ 
+ // [INPUTS]
+ // Operands:		A, B (8-bit)
+ 
+ // [OUTPUTS]
+ // Comparison:	OUT7 (8-bit)
+ ************************************************/
+ 
+module ShiftRight(
+	input [7:0] A,
+	output [7:0] Out2
+);
+
+	assign Out2 = A >> 1;
+endmodule 

@@ -1,0 +1,25 @@
+`timescale 1ns / 1ps
+
+/*------------------------------------------------
+ * CSE 140L - HW4
+ *
+ * Engineer:  Tahmid Khan
+ * Module:    Instruction Decoder
+ -----------------------------------------------*/
+ 
+ /************************************************ 
+ // [INPUTS]
+ // Unparsed Input:	In	
+ 
+ // [OUTPUTS]
+ // 
+ ************************************************/ 
+ 
+module BusSplit(
+	input [11:0] In
+);
+
+	assign data = In[7:0];
+	assign instruction = In[11:8];
+	
+endmodule 

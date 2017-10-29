@@ -1,0 +1,34 @@
+`timescale 1ns / 1ps
+
+/*------------------------------------------------
+ * CSE 140L - HW4
+ *
+ * Engineer:  Tahmid Khan
+ * Module:    8-bit Register
+ -----------------------------------------------*/
+ 
+ /************************************************ 
+ // [INPUTS]
+ // Clock:			CLK
+ // Clear Bit:		CLR
+ // Input Data:	D
+ 
+ // [OUTPUTS]
+ // Output wire:	Qout (8-bit)
+ ************************************************/
+
+module Register8bit(
+	input CLK, CLR,
+	output Qout
+);
+	always @(posedge CLK)
+	begin
+		if (En)
+		begin
+			if (CLR)
+				Qout <= 8'b00000000;
+			else
+				Qout <= D;
+		end
+	end
+endmodule 

@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Aug 30 16:08:26 2017
+Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+Revision Name : TinyCPU
+Top-level Entity Name : TinyCPU
+Family : Cyclone IV E
+Total logic elements : 120
+    Total combinational functions : 96
+    Dedicated logic registers : 48
+Total registers : 48
+Total pins : 37
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

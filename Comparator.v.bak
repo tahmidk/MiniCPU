@@ -1,0 +1,33 @@
+`timescale 1ns / 1ps
+
+/*------------------------------------------------
+ * CSE 140L - HW4
+ *
+ * Engineer:  Tahmid Khan
+ * Module:    Adder
+ -----------------------------------------------*/
+ 
+ /************************************************ 
+ // [INPUTS]
+ // Operands:	A, B (8-bit)
+ 
+ // [OUTPUTS]
+ // Sum:			OUT7 (8-bit)
+ ************************************************/
+
+module Comparator(
+	input [7:0] A, B,
+	output OUT7
+);
+
+	reg [7:0] OUT7;
+	
+	always @(A or B)
+	begin
+		if (A >= B)
+			OUT7 <= 8’b11111111;
+		else
+			OUT7 <= 8’b00000000;
+	end
+	
+endmodule

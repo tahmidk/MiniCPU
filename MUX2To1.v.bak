@@ -1,0 +1,38 @@
+`timescale 1ns / 1ps
+
+/*------------------------------------------------
+ * CSE 140L - HW4
+ *
+ * Engineer:  Tahmid Khan
+ * Module:    2:1 MUX
+ -----------------------------------------------*/
+ 
+ /************************************************ 
+ // [INPUTS]
+ // Data lines:		A, B (8-bit)
+ // Select line:		Sel
+ 
+ // [OUTPUTS]
+ // MUX Selection:	Y (8-bit)
+ ************************************************/
+
+module MUX2To1(
+	input [7:0] A,B;
+	input Sel,
+	output [7:0] Y
+);
+
+	always@(Sel)
+		case(Sel)
+			0: Y = A;
+			1: Y = B;
+			2: Y = C;
+			3: Y = D;
+			4: Y = E;
+			5: Y = F;
+			6: Y = G;
+			7: Y = H;
+			default: $display("8:1 MUX Selection ERR");
+		endcase 
+
+endmodule 

@@ -1,0 +1,32 @@
+`timescale 1ns / 1ps
+
+/*------------------------------------------------
+ * CSE 140L - HW4
+ *
+ * Engineer:  Tahmid Khan
+ * Module:    Bitwise AND (8-bit)
+ -----------------------------------------------*/
+ 
+ /************************************************ 
+ // [INPUTS]
+ // Operands:  A, B (8-bit) 
+ 
+ // [OUTPUTS]
+ // Output:	   OUT (8-bit)
+ ************************************************/ 
+ 
+ module xnor_8bit(A, B, OUT);
+	
+	input [7:0] A, B, C;
+	output [7:0] OUT;
+	
+	assign OUT[0] = (A[0] ~^ B[0]) ~^ C[0];
+	assign OUT[1] = (A[1] ~^ B[1]) ~^ C[1];
+	assign OUT[2] = (A[2] ~^ B[2]) ~^ C[2];
+	assign OUT[3] = (A[3] ~^ B[3]) ~^ C[3];
+	assign OUT[4] = (A[4] ~^ B[4]) ~^ C[4];
+	assign OUT[5] = (A[5] ~^ B[5]) ~^ C[5];
+	assign OUT[6] = (A[6] ~^ B[6]) ~^ C[6];
+	assign OUT[7] = (A[7] ~^ B[7]) ~^ C[7];
+	
+endmodule 

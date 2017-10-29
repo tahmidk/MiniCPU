@@ -1,0 +1,216 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+# do TinyCPU_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/anda0/Documents/CSE\ 140L\ Projects/HW4 {C:/Users/anda0/Documents/CSE 140L Projects/HW4/TinyCPU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:34:46 on Aug 30,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/anda0/Documents/CSE 140L Projects/HW4" C:/Users/anda0/Documents/CSE 140L Projects/HW4/TinyCPU.v 
+# -- Compiling module TinyCPU
+# 
+# Top level modules:
+# 	TinyCPU
+# End time: 16:34:46 on Aug 30,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/anda0/Documents/CSE\ 140L\ Projects/HW4 {C:/Users/anda0/Documents/CSE 140L Projects/HW4/InstructionDecoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:34:46 on Aug 30,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/anda0/Documents/CSE 140L Projects/HW4" C:/Users/anda0/Documents/CSE 140L Projects/HW4/InstructionDecoder.v 
+# -- Compiling module InstructionDecoder
+# 
+# Top level modules:
+# 	InstructionDecoder
+# End time: 16:34:46 on Aug 30,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/anda0/Documents/CSE\ 140L\ Projects/HW4 {C:/Users/anda0/Documents/CSE 140L Projects/HW4/BusSplit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:34:46 on Aug 30,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/anda0/Documents/CSE 140L Projects/HW4" C:/Users/anda0/Documents/CSE 140L Projects/HW4/BusSplit.v 
+# -- Compiling module BusSplit
+# 
+# Top level modules:
+# 	BusSplit
+# End time: 16:34:46 on Aug 30,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/anda0/Documents/CSE\ 140L\ Projects/HW4 {C:/Users/anda0/Documents/CSE 140L Projects/HW4/MUX8To1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:34:46 on Aug 30,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/anda0/Documents/CSE 140L Projects/HW4" C:/Users/anda0/Documents/CSE 140L Projects/HW4/MUX8To1.v 
+# -- Compiling module MUX8To1
+# 
+# Top level modules:
+# 	MUX8To1
+# End time: 16:34:46 on Aug 30,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/anda0/Documents/CSE\ 140L\ Projects/HW4 {C:/Users/anda0/Documents/CSE 140L Projects/HW4/MUX2To1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:34:46 on Aug 30,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/anda0/Documents/CSE 140L Projects/HW4" C:/Users/anda0/Documents/CSE 140L Projects/HW4/MUX2To1.v 
+# -- Compiling module MUX2To1
+# 
+# Top level modules:
+# 	MUX2To1
+# End time: 16:34:46 on Aug 30,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/anda0/Documents/CSE\ 140L\ Projects/HW4 {C:/Users/anda0/Documents/CSE 140L Projects/HW4/Adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:34:46 on Aug 30,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/anda0/Documents/CSE 140L Projects/HW4" C:/Users/anda0/Documents/CSE 140L Projects/HW4/Adder.v 
+# -- Compiling module Adder
+# 
+# Top level modules:
+# 	Adder
+# End time: 16:34:46 on Aug 30,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/anda0/Documents/CSE\ 140L\ Projects/HW4 {C:/Users/anda0/Documents/CSE 140L Projects/HW4/Comparator.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:34:46 on Aug 30,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/anda0/Documents/CSE 140L Projects/HW4" C:/Users/anda0/Documents/CSE 140L Projects/HW4/Comparator.v 
+# -- Compiling module Comparator
+# 
+# Top level modules:
+# 	Comparator
+# End time: 16:34:46 on Aug 30,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/anda0/Documents/CSE\ 140L\ Projects/HW4 {C:/Users/anda0/Documents/CSE 140L Projects/HW4/ShiftRight.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:34:46 on Aug 30,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/anda0/Documents/CSE 140L Projects/HW4" C:/Users/anda0/Documents/CSE 140L Projects/HW4/ShiftRight.v 
+# -- Compiling module ShiftRight
+# 
+# Top level modules:
+# 	ShiftRight
+# End time: 16:34:46 on Aug 30,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/anda0/Documents/CSE\ 140L\ Projects/HW4 {C:/Users/anda0/Documents/CSE 140L Projects/HW4/ShiftLeft.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:34:47 on Aug 30,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/anda0/Documents/CSE 140L Projects/HW4" C:/Users/anda0/Documents/CSE 140L Projects/HW4/ShiftLeft.v 
+# -- Compiling module ShiftLeft
+# 
+# Top level modules:
+# 	ShiftLeft
+# End time: 16:34:47 on Aug 30,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/anda0/Documents/CSE\ 140L\ Projects/HW4 {C:/Users/anda0/Documents/CSE 140L Projects/HW4/Register8bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:34:47 on Aug 30,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/anda0/Documents/CSE 140L Projects/HW4" C:/Users/anda0/Documents/CSE 140L Projects/HW4/Register8bit.v 
+# -- Compiling module Register8bit
+# 
+# Top level modules:
+# 	Register8bit
+# End time: 16:34:47 on Aug 30,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/anda0/Documents/CSE\ 140L\ Projects/HW4 {C:/Users/anda0/Documents/CSE 140L Projects/HW4/BitwiseAND.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:34:47 on Aug 30,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/anda0/Documents/CSE 140L Projects/HW4" C:/Users/anda0/Documents/CSE 140L Projects/HW4/BitwiseAND.v 
+# -- Compiling module BitwiseAND
+# 
+# Top level modules:
+# 	BitwiseAND
+# End time: 16:34:47 on Aug 30,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/anda0/Documents/CSE\ 140L\ Projects/HW4 {C:/Users/anda0/Documents/CSE 140L Projects/HW4/BitwiseOR.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:34:47 on Aug 30,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/anda0/Documents/CSE 140L Projects/HW4" C:/Users/anda0/Documents/CSE 140L Projects/HW4/BitwiseOR.v 
+# -- Compiling module BitwiseOR
+# 
+# Top level modules:
+# 	BitwiseOR
+# End time: 16:34:47 on Aug 30,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/anda0/Documents/CSE\ 140L\ Projects/HW4 {C:/Users/anda0/Documents/CSE 140L Projects/HW4/BitwiseXOR.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:34:47 on Aug 30,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/anda0/Documents/CSE 140L Projects/HW4" C:/Users/anda0/Documents/CSE 140L Projects/HW4/BitwiseXOR.v 
+# -- Compiling module BitwiseXOR
+# 
+# Top level modules:
+# 	BitwiseXOR
+# End time: 16:34:47 on Aug 30,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/anda0/Documents/CSE\ 140L\ Projects/HW4 {C:/Users/anda0/Documents/CSE 140L Projects/HW4/BitwiseNAND.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:34:47 on Aug 30,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/anda0/Documents/CSE 140L Projects/HW4" C:/Users/anda0/Documents/CSE 140L Projects/HW4/BitwiseNAND.v 
+# -- Compiling module BitwiseNAND
+# 
+# Top level modules:
+# 	BitwiseNAND
+# End time: 16:34:47 on Aug 30,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/anda0/Documents/CSE\ 140L\ Projects/HW4 {C:/Users/anda0/Documents/CSE 140L Projects/HW4/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:34:47 on Aug 30,2017
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/anda0/Documents/CSE 140L Projects/HW4" C:/Users/anda0/Documents/CSE 140L Projects/HW4/alu.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 16:34:47 on Aug 30,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work {C:/Users/anda0/Documents/CSE 140L Projects/HW4/TinyCPUTest.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:35:03 on Aug 30,2017
+# vlog -reportprogress 300 -work work C:/Users/anda0/Documents/CSE 140L Projects/HW4/TinyCPUTest.v 
+# -- Compiling module TinyCPUTest
+# 
+# Top level modules:
+# 	TinyCPUTest
+# End time: 16:35:03 on Aug 30,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.TinyCPUTest
+# vsim work.TinyCPUTest 
+# Start time: 16:35:11 on Aug 30,2017
+# Loading work.TinyCPUTest
+# Loading work.TinyCPU
+# Loading work.InstructionDecoder
+# Loading work.BusSplit
+# Loading work.Register8bit
+# Loading work.ALU
+# Loading work.Adder
+# Loading work.ShiftLeft
+# Loading work.ShiftRight
+# Loading work.BitwiseAND
+# Loading work.BitwiseOR
+# Loading work.BitwiseXOR
+# Loading work.BitwiseNAND
+# Loading work.Comparator
+# Loading work.MUX2To1
+# Loading work.MUX8To1
+add wave -position end  sim:/TinyCPUTest/Result
+add wave -position end  sim:/TinyCPUTest/RegB
+add wave -position end  sim:/TinyCPUTest/RegA
+add wave -position end  sim:/TinyCPUTest/In
+add wave -position end  sim:/TinyCPUTest/Clk
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: anda0  Hostname: ANDA-PC-NOXIII  ProcessID: 9484
+#           Attempting to use alternate WLF file "./wlftsjwg5w".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftsjwg5w
+run -all
+# Instruction: 0 	 Opeartion: CLEAR
+# Instruction: 1 	 Opeartion: MOVE1 (Data->RegA)
+# Instruction: 2 	 Opeartion: MOVE2 (Data->RegB)
+# Instruction: 4 	 Opeartion: [+]
+# Instruction: 9 	 Opeartion: Bitwise XOR
+# Instruction: 11 	 Opeartion: COMPARE
+# Instruction: 6 	 Opeartion: [>>]
+# Instruction: 3 	 Opeartion: STORE OUT (RegOUT->RegB)
+# ** Note: $stop    : C:/Users/anda0/Documents/CSE 140L Projects/HW4/TinyCPUTest.v(80)
+#    Time: 900 ns  Iteration: 0  Instance: /TinyCPUTest
+# Break in Module TinyCPUTest at C:/Users/anda0/Documents/CSE 140L Projects/HW4/TinyCPUTest.v line 80
+# End time: 16:38:50 on Aug 30,2017, Elapsed time: 0:03:39
+# Errors: 0, Warnings: 2

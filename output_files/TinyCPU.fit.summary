@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed Aug 30 16:08:38 2017
+Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+Revision Name : TinyCPU
+Top-level Entity Name : TinyCPU
+Family : Cyclone IV E
+Device : EP4CE6E22C6
+Timing Models : Final
+Total logic elements : 112 / 6,272 ( 2 % )
+    Total combinational functions : 96 / 6,272 ( 2 % )
+    Dedicated logic registers : 48 / 6,272 ( < 1 % )
+Total registers : 48
+Total pins : 37 / 92 ( 40 % )
+Total virtual pins : 0
+Total memory bits : 0 / 276,480 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

@@ -1,0 +1,10 @@
+`timescale 1ns / 1ps
+module TinyCPU(
+	input [11:0] In,
+	input Clk,
+	output [7:0] Result
+);
+
+
+
+endmodule 

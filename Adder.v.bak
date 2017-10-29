@@ -1,0 +1,28 @@
+`timescale 1ns / 1ps
+
+/*------------------------------------------------
+ * CSE 140L - HW4
+ *
+ * Engineer:  Tahmid Khan
+ * Module:    Adder
+ -----------------------------------------------*/
+ 
+ /************************************************ 
+ // [INPUTS]
+ // Operand:	A, B (8-bit)
+ 
+ // [OUTPUTS]
+ // Sum:			SUM (8-bit)
+ ************************************************/
+
+module Adder(
+	input [7:0] A, B,
+	output [7:0] SUM
+);
+
+	always @(A or B)
+	begin
+		SUM <= A + B;
+	end
+ 
+endmodule

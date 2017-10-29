@@ -1,0 +1,42 @@
+`timescale 1ns / 1ps
+
+/*------------------------------------------------
+ * CSE 140L - HW4
+ *
+ * Engineer:  Tahmid Khan
+ * Module:    Instruction Decoder
+ -----------------------------------------------*/
+ 
+ /************************************************ 
+ // [INPUTS]
+ // Instruction: Instruction
+ 
+ // [OUTPUTS]
+ // 
+ ************************************************/ 
+
+module InstructionDecoder(
+	input [3:0] instruction
+);
+
+	always@(instruction)
+	case(instruction)	
+		0:
+		1:
+		2:
+		3:
+		4:
+		5:
+		6:
+		7:
+		8:
+		9:
+		10:
+		11:
+		12:
+		13:
+		14:
+		15:
+		default: $display("Instruction ERR");
+endmodule 
+
