@@ -3,4 +3,7 @@ README
 This is a mini CPU capable of performing basic arithmetic operations at each posedge of the CLK depending on 12 bit instruction received. 
 It first parses 12 bit input into an 8-bit data and 4-bit instruction. They are separately processed, with the instruction going to the 
 instruction decoder (controller) and the data going to the data path. The system then stores the data appropriately in two registers and
-performs the appropriate arithmetic operation with the register data as input(s) before outputting the result
+performs the appropriate arithmetic operation with the register data as input(s) before outputting the result. See Schematic.jpg for 
+circuit design.
+
+Note: This is programmed using the Verilog HDL on Intel Quarterus Prime and simulated with ModelSim Altera
